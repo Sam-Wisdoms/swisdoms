@@ -6,7 +6,7 @@
         "description": "A team profile generator app",
         "deployedLink": "https://sam-wisdoms.github.io/profile-generator/",
         "githubLink": "https://github.com/Sam-Wisdoms/profile-generator",
-        "image": "/img/"
+        "image": "https://github.com/Sam-Wisdoms/profile-generator/raw/main/Team%20Profile.png"
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@
         "description": "A group project where users can search for movies and books based on their mood",
         "deployedLink": "https://sam-wisdoms.github.io/mood-flix/",
         "githubLink": "https://github.com/Sam-Wisdoms/mood-flix",
-        "image": "/img/"
+        "image": "https://images.unsplash.com/photo-1601944179066-29786cb9d32a"
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "description": "An app for planning daily activities",
         "deployedLink": "https://sam-wisdoms.github.io/day-planner/",
         "githubLink": "https://github.com/Sam-Wisdoms/day-planner",
-        "image": "/img/"
+        "image": "https://github.com/Sam-Wisdoms/day-planner/blob/main/dayplanner.png?raw=true"
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "description": "A coding quiz that test basic JavaScript knowledge",
         "deployedLink": "https://sam-wisdoms.github.io/timed-coding-quiz/",
         "githubLink": "https://github.com/Sam-Wisdoms/timed-coding-quiz",
-        "image": "/img/"
+        "image": "https://github.com/Sam-Wisdoms/timed-coding-quiz/blob/main/quizscreenshot.png?raw=true"
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "description": "A file generator using Node.js",
         "deployedLink": "https://sam-wisdoms.github.io/readme-generator/",
         "githubLink": "https://github.com/Sam-Wisdoms/readme-generator",
-        "image": "/img/"
+        "image": "https://github.com/Sam-Wisdoms/readme-generator/raw/main/READMEGenerator.png"
     },
     {
         "id": 6,
@@ -46,6 +46,6 @@
         "description": "A password generator app for secure passwords",
         "deployedLink": "https://sam-wisdoms.github.io/password-generator/",
         "githubLink": "https://github.com/Sam-Wisdoms/password-generator",
-        "image": "/img/"
+        "image": "https://github.com/Sam-Wisdoms/password-generator/raw/main/password-generator.png"
     }
 ]

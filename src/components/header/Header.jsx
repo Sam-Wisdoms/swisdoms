@@ -3,13 +3,13 @@ import "./Header.css"
 function Header(){
     return (
        <nav>
-        <h1 className="name">Sam-Wisdoms Amenyenu</h1>
+        <h1 className="name">SAM-WISDOMS AMENYENU</h1>
         <ul className="nav-items">
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/about"></Link></li>
-            <li><Link to="/blog"></Link></li>
-            <li><Link to="/projects"></Link></li>
-            <li><Link to="/contact"></Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
         </ul>
        </nav>
     )

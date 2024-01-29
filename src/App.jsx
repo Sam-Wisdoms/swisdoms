@@ -1,8 +1,9 @@
 
-import { BrowserRouter as Rounter, Route, Router, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Header from "./components/header/Header.jsx"
 import Home from "./components/home/Home.jsx"
 import About from "./components/about/About.jsx"
+import Blog from "./components/blogs/Blog.jsx"
 import ProjectGallery from "./components/projectGallery/ProjectGallery.jsx"
 import Contact from "./components/contact/Contact.jsx"
 

@@ -1,0 +1,30 @@
+/* .blog-style{
+    width: 30px;
+    height: 5px;
+    margin: 40px auto;
+    background: rgb(0, 170, 255);
+    margin-top: 1px;
+} */
+
+.p-style{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 50px;
+}
+
+.p-style{
+    width: 600px;
+    height: 100px;
+    background: rgb(7, 139, 192);
+    margin: 80px;
+    line-height: normal;
+  
+}
+
+.here{
+    font-size: 2rem;
+}
