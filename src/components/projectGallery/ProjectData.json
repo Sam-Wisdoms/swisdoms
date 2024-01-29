@@ -4,36 +4,48 @@
         "id": 1,
         "title": "Team Profile Generator",
         "description": "A team profile generator app",
+        "deployedLink": "https://sam-wisdoms.github.io/profile-generator/",
+        "githubLink": "https://github.com/Sam-Wisdoms/profile-generator",
         "image": "/img/"
     },
     {
         "id": 2,
         "title": "Mood Flix",
         "description": "A group project where users can search for movies and books based on their mood",
+        "deployedLink": "https://sam-wisdoms.github.io/mood-flix/",
+        "githubLink": "https://github.com/Sam-Wisdoms/mood-flix",
         "image": "/img/"
     },
     {
         "id": 3,
         "title": "Day Planner",
         "description": "An app for planning daily activities",
+        "deployedLink": "https://sam-wisdoms.github.io/day-planner/",
+        "githubLink": "https://github.com/Sam-Wisdoms/day-planner",
         "image": "/img/"
     },
     {
         "id": 4,
         "title": "Timed Coding Quiz",
         "description": "A coding quiz that test basic JavaScript knowledge",
+        "deployedLink": "https://sam-wisdoms.github.io/timed-coding-quiz/",
+        "githubLink": "https://github.com/Sam-Wisdoms/timed-coding-quiz",
         "image": "/img/"
     },
     {
         "id": 5,
         "title": "README Generator",
         "description": "A file generator using Node.js",
+        "deployedLink": "https://sam-wisdoms.github.io/readme-generator/",
+        "githubLink": "https://github.com/Sam-Wisdoms/readme-generator",
         "image": "/img/"
     },
     {
         "id": 6,
         "title": "Password Generator",
         "description": "A password generator app for secure passwords",
+        "deployedLink": "https://sam-wisdoms.github.io/password-generator/",
+        "githubLink": "https://github.com/Sam-Wisdoms/password-generator",
         "image": "/img/"
     }
 ]
