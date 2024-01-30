@@ -1,6 +1,19 @@
 
 .pic{
+    /* margin: 20px; */
+    padding: 20px;
+    max-width: 600px;
+    height: 230px;
+    border-radius: 100%;
+    margin: auto;
+    aspect-ratio: 1/0.99;
+    border: rgba(0, 0, 0, 0.25)
+    
+}
 
-    width: 100px;
-    border-radius: 50%;
+.home-text{
+    font-weight: 300;
+    max-width: 900px;
+    margin: auto;
+    font-size: 24px;
 }

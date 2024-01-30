@@ -4,7 +4,7 @@ function Project({projectProp}) {
     
 
     return (
-        <div>
+        <div className="projects">
             <h3>{projectProp.title}</h3>
             <p><a href={projectProp.deployedLink}>Deployed Link</a></p>
             <p><a href={projectProp.githubLink}>GitHub Link</a></p>

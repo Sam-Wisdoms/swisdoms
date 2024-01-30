@@ -17,11 +17,13 @@
 }
 
 .p-style{
-    width: 600px;
-    height: 100px;
+    width: 650px;
+    height: 200px;
     background: rgb(7, 139, 192);
     margin: 80px;
     line-height: normal;
+    color: white;
+    font-size: 24px;
   
 }
 
