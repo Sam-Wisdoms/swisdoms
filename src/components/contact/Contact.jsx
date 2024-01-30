@@ -1,15 +1,25 @@
-import React from "react";
 import "./Contact.css"
+import React, { useState } from "react";
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
   const onSubmit = async (event) => {
     event.preventDefault();
-    const formData = new FormData(event.target);
 
-    formData.append("access_key", "e7eb55fa-bf4f-42bd-a076-969c8de7e480");
+    // FormData is no longer needed
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+    // Now you can directly use formData for your API call
+    const json = JSON.stringify(formData);
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -26,13 +36,28 @@ function Contact() {
   };
 
   return (
-      <form onSubmit={onSubmit}>
-        <input type="text" name="name"/>
-        <input type="email" name="email"/>
-        <textarea name="message"></textarea>
-        <button type="submit">Submit Form</button>
-      </form>
+    <form onSubmit={onSubmit}>
+      <label>
+        Name:
+        <input type="text" name="name" value={formData.name} onChange={handleInputChange} />
+      </label>
+
+      <label>
+        Email:
+        <input type="email" name="email" value={formData.email} onChange={handleInputChange} />
+      </label>
+
+      <label>
+        Message:
+        {/* Make the textarea bigger with the rows attribute */}
+        <textarea name="message" value={formData.message} rows={5} onChange={handleInputChange}></textarea>
+      </label>
+
+      <button type="submit">Submit Form</button>
+    </form>
   );
 }
 
 export default Contact;
+
+

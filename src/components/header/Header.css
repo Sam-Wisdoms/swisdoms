@@ -12,7 +12,7 @@ body{
 
 nav{
     display: flex;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     padding: 0 10%;
     background: rgb(7, 139, 192);
     height: 80px;
@@ -38,12 +38,12 @@ nav{
 
 nav ul li{
     display: inline-block;
-    line-height: 80px;
-    margin: 0 50px;
+    line-height: 40px;
+    margin: 5px 30px;
     justify-content: space-around;  
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     body {
       background-color: lightblue;
     }

@@ -1,8 +1,9 @@
 
+
 .pic{
     /* margin: 20px; */
     padding: 20px;
-    max-width: 600px;
+    max-width: 100%;
     height: 230px;
     border-radius: 100%;
     margin: auto;
@@ -17,3 +18,4 @@
     margin: auto;
     font-size: 24px;
 }
+
