@@ -1,6 +1,6 @@
 .projects{
     font-weight: 300;
-    max-width: 900px;
+    max-width: 350px;
     margin: auto;
     font-size: 24px;
     font-family:Arial, Helvetica, sans-serif
@@ -14,7 +14,19 @@
     font-weight: 300;
     max-width: 900px;
     margin: 20px 30px 40px;
-    font-size: 24px;
+    font-size: 24px; 
+}
+
+.description{
+    width: 300px;
+}
+
+.project-container{
+    display: flex;
+    max-width: 800px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
     
-   
 }

@@ -6,11 +6,13 @@ function ProjectGallery() {
     return (
         <div>
             <h3 className="about-projects">Please have a look around for some of my past projects</h3>
+            <div className="project-container">
             {
                 ProjectData.map((project, index) => {
                     return <Project projectProp={project} />
                 })
             }
+            </div>
         </div>
     )
 }

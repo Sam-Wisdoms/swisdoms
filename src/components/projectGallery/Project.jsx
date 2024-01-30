@@ -9,7 +9,7 @@ function Project({projectProp}) {
             <p><a href={projectProp.deployedLink}>Deployed Link</a></p>
             <p><a href={projectProp.githubLink}>GitHub Link</a></p>
             <img src={projectProp.image} alt={projectProp.title} className="project-image" />
-            <p>{projectProp.description}</p>
+            <p className="description">{projectProp.description}</p>
         </div>
     )
 }
